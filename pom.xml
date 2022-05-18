@@ -13,6 +13,7 @@
         <module>1-generics</module>
         <module>2-algorithms</module>
         <module>3-data-structure</module>
+        <module>4-java-library</module>
         <module>java-utils</module>
     </modules>
 
