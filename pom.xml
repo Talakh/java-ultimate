@@ -15,6 +15,8 @@
         <module>3-data-structure</module>
         <module>4-java-library</module>
         <module>5-oop</module>
+        <module>6-declarative-data-processing</module>
+        <module>7-concurrency</module>
         <module>java-utils</module>
     </modules>
 
