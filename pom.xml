@@ -17,6 +17,10 @@
         <module>5-oop</module>
         <module>6-declarative-data-processing</module>
         <module>7-concurrency</module>
+        <module>8-web</module>
+        <module>9-networking</module>
+        <module>10-server-side</module>
+        <module>11-servlet</module>
         <module>java-utils</module>
     </modules>
 
