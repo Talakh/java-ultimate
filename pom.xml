@@ -21,6 +21,7 @@
         <module>9-networking</module>
         <module>10-server-side</module>
         <module>11-servlet</module>
+        <module>12</module>
         <module>java-utils</module>
     </modules>
 

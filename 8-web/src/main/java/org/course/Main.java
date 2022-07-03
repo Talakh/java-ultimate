@@ -22,7 +22,7 @@ public class Main {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
-        largestPictureByRestTemplate();
+        largestPictureByHttpClient();
         long end = System.currentTimeMillis();
         System.out.println();
         System.out.println(end - start);
@@ -35,7 +35,7 @@ public class Main {
                 .findValues("img_src").stream()
                 .map(JsonNode::textValue)
                 .map(uri -> Map.entry(uri, getImageSize(uri)))
-                .max(Map.Entry.comparingByValue())
+                .min(Map.Entry.comparingByValue())
                 .ifPresent(e -> System.out.format("Url: %s, size: %d", e.getKey(), e.getValue()));
     }
 
