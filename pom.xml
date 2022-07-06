@@ -22,6 +22,7 @@
         <module>10-server-side</module>
         <module>11-servlet</module>
         <module>12</module>
+        <module>13-application-context</module>
         <module>java-utils</module>
     </modules>
 
