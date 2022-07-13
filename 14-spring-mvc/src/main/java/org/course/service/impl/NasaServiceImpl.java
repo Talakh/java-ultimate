@@ -1,8 +1,10 @@
-package org.course.service;
+package org.course.service.impl;
 
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.course.entity.Photo;
 import org.course.entity.Photos;
+import org.course.service.NasaService;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -11,6 +13,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import java.util.Comparator;
 
 @Service
+@Slf4j
 @AllArgsConstructor
 public class NasaServiceImpl implements NasaService {
     private final RestTemplate rt;
@@ -33,6 +36,7 @@ public class NasaServiceImpl implements NasaService {
     }
 
     private Photo setImageSize(Photo photo) {
+        log.info("Get image size");
         var location = rt.headForHeaders(photo.getUrl()).getLocation();
         if (location == null) {
             throw new IllegalArgumentException();
