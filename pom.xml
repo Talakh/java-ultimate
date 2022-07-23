@@ -24,6 +24,7 @@
         <module>12</module>
         <module>13-application-context</module>
         <module>14-spring-mvc</module>
+        <module>16-web-flux</module>
         <module>java-utils</module>
     </modules>
 
