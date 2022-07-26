@@ -24,6 +24,8 @@
         <module>12</module>
         <module>13-application-context</module>
         <module>14-spring-mvc</module>
+        <module>15-bpp</module>
+        <module>15-test-bpp</module>
         <module>java-utils</module>
     </modules>
 
