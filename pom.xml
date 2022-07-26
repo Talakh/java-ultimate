@@ -26,6 +26,7 @@
         <module>14-spring-mvc</module>
         <module>15-bpp</module>
         <module>15-test-bpp</module>
+        <module>16-web-flux</module>
         <module>java-utils</module>
     </modules>
 
