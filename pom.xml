@@ -27,6 +27,7 @@
         <module>15-bpp</module>
         <module>15-test-bpp</module>
         <module>16-web-flux</module>
+        <module>17-deadlock</module>
         <module>java-utils</module>
     </modules>
 
