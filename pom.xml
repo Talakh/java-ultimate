@@ -29,6 +29,7 @@
         <module>16-web-flux</module>
         <module>17-deadlock</module>
         <module>18-connection-pool</module>
+        <module>19-persistent-context</module>
         <module>java-utils</module>
     </modules>
 
